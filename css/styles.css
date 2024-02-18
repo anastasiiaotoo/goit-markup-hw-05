@@ -499,3 +499,106 @@ img {
 }
 
 /* -------------------- */
+/* -------Modal-------- */
+.backdrop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+.modal {
+  width: 408px;
+  min-height: 584px;
+  background-color: rgba(252, 252, 252, 1);
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+}
+.modal-close {
+  width: 24px;
+  height: 24px;
+  background-color: rgba(231, 233, 252, 1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: rgba(46, 47, 66, 1);
+}
+.modal-close:hover {
+  background-color: #404bbf;
+}
+.modal-close:focus {
+  background-color: #404bbf;
+}
+.icon-close {
+  fill: rgba(46, 47, 66, 1);
+}
+.icon-close:hover {
+  fill: #ffffff;
+}
+.icon-close:focus {
+  fill: #ffffff;
+}
+.modal-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.modal-form {
+}
+.modal-input-wrap {
+  position: relative;
+}
+.modal-input {
+  width: 100%;
+  height: 58px;
+  border-radius: 4px;
+  border: 1px solid #2e2f4266;
+  outline: transparent;
+  padding-left: 36px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-input:focus {
+  border-color: #4d5ae5;
+}
+.modal-input:focus + .modal-icon {
+  fill: #4d5ae5;
+}
+.modal-lable {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+.modal-field {
+  margin-bottom: 8px;
+}
+.modal-icon {
+  fill: #2e2f42;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-textarea {
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid #2e2f4266;
+  outline: transparent;
+  padding: 8px 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  resize: none;
+}
+/* -------------------- */
