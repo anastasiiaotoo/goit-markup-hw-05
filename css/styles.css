@@ -514,12 +514,10 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  padding-left: 16px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px #00000026;
   color: #ffffff;
-
-  padding-left: 12px;
+  padding-left: 16px;
 }
 .footer-input::placeholder {
   font-size: 12px;
