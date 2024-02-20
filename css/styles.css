@@ -461,6 +461,7 @@ img {
   max-width: 264px;
 }
 .footer-conteiner-social {
+  margin-right: 80px;
 }
 .footer-subtitle {
   color: rgba(255, 255, 255, 1);
@@ -498,9 +499,6 @@ img {
   background-color: #31d0aa;
 }
 .footer-conteiner-subscribe {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .footer-form {
   display: flex;
