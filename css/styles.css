@@ -530,6 +530,8 @@ img {
   color: #ffffff;
 }
 .footer-btn {
+  min-width: 165px;
+  height: 40px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -543,9 +545,12 @@ img {
   background: #4d5ae5;
   padding: 8px 24px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .icon-send {
   fill: #ffffff;
+  margin-left: 16px;
 }
 /* -------------------- */
 /* -------Modal-------- */
