@@ -610,17 +610,16 @@ img {
   background-color: #404bbf;
   border: none;
 }
-.modal-close:hover + .icon-close {
+.modal-close:hover .icon-close {
   fill: #ffffff;
 }
 .modal-close:focus {
   background-color: #404bbf;
   border: none;
 }
-.modal-close:focus + .icon-close {
+.modal-close:focus .icon-close {
   fill: #ffffff;
 }
-
 .modal-title {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
@@ -715,7 +714,6 @@ img {
   border-radius: 2px;
   border: 1px solid #2e2f4266;
   margin-right: 8px;
-  display: flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
