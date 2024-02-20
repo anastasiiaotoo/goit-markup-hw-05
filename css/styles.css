@@ -536,6 +536,10 @@ img {
   gap: 16px;
   background: #4d5ae5;
   padding: 8px 24px;
+  display: flex;
+}
+.icon-send {
+  fill: #ffffff;
 }
 /* -------------------- */
 /* -------Modal-------- */
