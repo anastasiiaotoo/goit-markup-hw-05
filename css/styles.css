@@ -239,8 +239,10 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  /* padding-top: 188px; */
+  /* padding-bottom: 188px; */
+  padding-top: 72px;
+  padding-bottom: 72px;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -368,6 +370,7 @@ img {
   padding-bottom: 120px;
 }
 .team-container {
+  width: 296px;
 }
 .team-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -889,7 +892,9 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
   }
-
+  .address-list-item:first-child {
+    margin-bottom: 12px;
+  }
   /* ----------------------- */
   /* Media for hero 768px */
   .hero {
@@ -898,6 +903,8 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/Herobg-tab.jpg);
+    padding-top: 112px;
+    padding-bottom: 112px;
   }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -919,6 +926,7 @@ img {
   /* Media for features 768px */
   .features-list {
     gap: 24px;
+    row-gap: 72px;
   }
   .features-items {
     width: calc((100% - 24px) / 2);
@@ -997,6 +1005,8 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/HeroBG.jpg);
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -1055,6 +1065,13 @@ img {
   }
   .footer-conteiner-logo {
     margin-right: 90px;
+  }
+  .footer-text {
+    margin-bottom: 0;
+  }
+  .footer-conteiner-social {
+    margin-left: 0;
+    margin-bottom: 0;
   }
   /* .footer-text {
     width: 264px;
