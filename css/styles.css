@@ -244,6 +244,17 @@ img {
   max-width: 1440px;
   margin: 0 auto;
 }
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Herobg-mob2x.jpg);
+  }
+}
 .hero-title {
   color: var(--WHITE, #fff);
   text-align: center;
@@ -888,6 +899,17 @@ img {
       ),
       url(../images/Herobg-tab.jpg);
   }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Herobg-tab2x.jpg);
+    }
+  }
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -975,6 +997,17 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/HeroBG.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Herobg2x.jpg);
+    }
   }
   /* ----------------------- */
   /* Media for features 1158px */
