@@ -235,7 +235,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/HeroBG.jpg);
+    url(../images/Herobg-mob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -881,6 +881,13 @@ img {
 
   /* ----------------------- */
   /* Media for hero 768px */
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Herobg-tab.jpg);
+  }
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -962,7 +969,13 @@ img {
 
   /* ----------------------- */
   /* Media for hero 1158px */
-
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/HeroBG.jpg);
+  }
   /* ----------------------- */
   /* Media for features 1158px */
   .features-items {
